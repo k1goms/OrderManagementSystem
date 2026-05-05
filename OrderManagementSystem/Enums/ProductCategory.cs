@@ -1,5 +1,9 @@
 namespace OrderManagementSystem.Enums;
 
-public class CategoriaProduto
+public enum ProductCategory
 {
+    Drink,
+    Snack,
+    Dessert,
+    Combo
 }

@@ -1,5 +1,10 @@
 namespace OrderManagementSystem.Enums;
 
-public class OrderStatus
+public enum OrderStatus
 {
+    Pending,
+    Preparing,
+    Ready,
+    Delivered,
+    Cancelled
 }
