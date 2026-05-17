@@ -27,7 +27,7 @@ public class ProductRepository : IProductRepository
 
     public List<Product> GetAll()
     {
-        return _products;
+        return new List<Product>(_products);
     }
 
 }

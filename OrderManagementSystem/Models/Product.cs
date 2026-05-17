@@ -1,3 +1,4 @@
+using OrderManagementSystem.DTOs;
 using OrderManagementSystem.Enums;
 
 namespace OrderManagementSystem.Models;
@@ -19,7 +20,7 @@ public class Product
     }
 
     public Product(long id, CreateProductDto dto)
-    : this(id, dto.Name, dto.Price, dto.Category)
+        : this(id, dto.Name, dto.Price, dto.Category)
     {
     }
 

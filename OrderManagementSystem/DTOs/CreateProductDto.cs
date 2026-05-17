@@ -1,6 +1,6 @@
 using OrderManagementSystem.Enums;
 
-namespace OrderManagementSystem.Models;
+namespace OrderManagementSystem.DTOs;
 
 public record CreateProductDto
     (

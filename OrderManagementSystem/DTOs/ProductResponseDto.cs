@@ -1,5 +1,10 @@
 namespace OrderManagementSystem.DTOs;
 
-public class ProductResponseDto
-{
-}
+public record ProductResponseDto
+    (
+        long Id,
+        string Name,
+        decimal Price,
+        string Category
+    );
+
