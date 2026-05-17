@@ -135,8 +135,12 @@ Any status → Cancelled (except Delivered)
 
 ### Running the project
 
+Open the solution file `OrderManagementSystem.sln` in Visual Studio and press **F5** to run.
+
+Or via CLI:
+
 ```bash
-git clone https://github.com/k1goms/OrderManagementSystem.git
+git clone https://github.com/your-username/OrderManagementSystem.git
 cd OrderManagementSystem
 dotnet run
 ```
